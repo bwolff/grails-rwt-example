@@ -42,3 +42,5 @@
 # other
 *.iws
 
+# RWT Stuff
+/web-app/rwt-resources
