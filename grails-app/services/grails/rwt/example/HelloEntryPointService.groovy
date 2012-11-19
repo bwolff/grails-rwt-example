@@ -24,6 +24,8 @@ class HelloEntryPointService implements IEntryPoint { // "The service needs to i
 
     @Override
     int createUI() {
+        log.info("Creating RWT UI ...") // "Implicit logger object"
+
         Display display = new Display()
         Shell shell = new Shell(display)
         shell.setSize(500, 400)
