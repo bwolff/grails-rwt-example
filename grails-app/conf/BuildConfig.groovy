@@ -6,13 +6,15 @@ grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
+grails.plugin.location."rwt" = "../grails-rwt.git"
+
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
         // specify dependency exclusions here; for example, uncomment this to disable ehcache:
         // excludes 'ehcache'
     }
-    log "error" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
+    log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     checksums true // Whether to verify checksums on resolve
 
     repositories {
@@ -29,6 +31,6 @@ grails.project.dependency.resolution = {
         runtime ":hibernate:$grailsVersion"
         build ":tomcat:$grailsVersion"
 
-        compile ":rwt:0.1"
+//        compile ":rwt:0.1"
     }
 }

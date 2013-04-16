@@ -95,10 +95,16 @@ log4j = {
 
 // RWT configuration
 rwt {
+    themes {
+        rwtdefault = 'themes/test.css'
+        mytheme = ['themes/test2.css', 'themes/test3.css']
+    }
+
     entrypoints {
         hello {
             bean = 'helloEntryPointService'
             pageTitle = 'Hello RWT!'
+            theme = 'mytheme'
         }
     }
 }
