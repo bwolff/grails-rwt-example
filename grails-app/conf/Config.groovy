@@ -104,7 +104,8 @@ rwt {
         hello {
             bean = 'helloEntryPointService'
             pageTitle = 'Hello RWT!'
-            theme = 'mytheme'
+            favicon = 'icons/favicon.ico'
+//            theme = 'mytheme'
         }
     }
 }
