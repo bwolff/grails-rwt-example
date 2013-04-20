@@ -88,6 +88,7 @@ log4j = {
         development {
             debug 'grails.app.conf.RwtPluginBootStrap'
             debug 'grails.plugins.rwt'
+            debug 'grails.rwt'
             debug 'RwtGrailsPlugin'
         }
     }
@@ -95,6 +96,9 @@ log4j = {
 
 // RWT configuration
 rwt {
+    operationMode = 'SWT_COMPATIBILITY'
+    phaseListeners = ['fooPhaseListener']
+
     themes {
         rwtdefault = 'themes/test.css'
         mytheme = ['themes/test2.css', 'themes/test3.css']
@@ -105,6 +109,8 @@ rwt {
             bean = 'helloEntryPointService'
             pageTitle = 'Hello RWT!'
             favicon = 'icons/favicon.ico'
+            headHtml = 'html/head.html'
+            bodyHtml = 'html/body.html'
 //            theme = 'mytheme'
         }
     }
