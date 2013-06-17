@@ -96,7 +96,7 @@ log4j = {
 
 // RWT configuration
 rwt {
-    operationMode = 'SWT_COMPATIBILITY'
+    operationMode = 'SWT_COMPATIBILITY' // Required to use blocking SWT/JFace APIs like Display#sleep()
     phaseListeners = ['fooPhaseListener']
 
     themes {
@@ -111,7 +111,7 @@ rwt {
             favicon = 'icons/favicon.ico'
             headHtml = 'html/head.html'
             bodyHtml = 'html/body.html'
-//            theme = 'mytheme'
+//            themeId = 'mytheme'
         }
     }
 }
