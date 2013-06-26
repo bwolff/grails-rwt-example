@@ -5,7 +5,7 @@ grails.project.test.reports.dir = "target/test-reports"
 grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 
-grails.plugin.location."rwt" = "../grails-rwt.git"
+//grails.plugin.location."rwt" = "../grails-rwt.git"
 
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
@@ -30,6 +30,6 @@ grails.project.dependency.resolution = {
         runtime ":hibernate:$grailsVersion"
         build ":tomcat:$grailsVersion"
 
-//        compile ":rwt:1.0"
+        compile ":rwt:1.0"
     }
 }
