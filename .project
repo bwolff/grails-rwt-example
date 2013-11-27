@@ -26,7 +26,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<location>C:/Users/ben/.grails/2.2.3/projects/grails-rwt-example/plugins</location>
+			<location>D:/dev/git/grails-rwt-example.git/target/2.3.3/plugins</location>
 		</link>
 	</linkedResources>
 </projectDescription>
