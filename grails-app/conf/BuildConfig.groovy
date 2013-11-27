@@ -30,6 +30,6 @@ grails.project.dependency.resolution = {
         runtime ":hibernate:$grailsVersion"
         build ":tomcat:$grailsVersion"
 
-        compile ":rwt:1.0"
+        compile ":rwt:1.0.1"
     }
 }

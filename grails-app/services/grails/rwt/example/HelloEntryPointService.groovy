@@ -71,6 +71,7 @@ class HelloEntryPointService implements EntryPoint { // "The service needs to im
             }
         })
 
+        // "Open the shell and start the UI event handling queue"
         shell.pack()
         shell.open()
 
